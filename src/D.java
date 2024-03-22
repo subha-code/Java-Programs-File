@@ -1,8 +1,8 @@
-package p1;
-import static p2.E.*; // all memebers access to use *
+package mypackage1;
+//Default access specifiers
 public class D {
-    public static void main(String[] args) {
-        System.out.println(j);
-        test();
+    int x= 10;
+    void test(){
+        System.out.println("A");
     }
 }
